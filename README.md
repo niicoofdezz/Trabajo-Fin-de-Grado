@@ -91,7 +91,7 @@ Configuración de cuatro ruedas motrices con **dirección diferencial**: dos par
 
 | Proceso de montaje del UGV básico (Chasis y tracción) |
 |:--:|:--:|
-| ![Montaje UGV básico](assets/montaje_ugv_basico.gif) | ![Tracción](assets/demo_traccion.gif) |
+| ![Montaje UGV básico](assets/sist_tracción.gif) |
 
 </div>
 
