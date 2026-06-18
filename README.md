@@ -121,6 +121,17 @@ Tornillo helicoidal de 45° (sin soportes de impresión) dentro de carcasa cilí
 | Linealidad validada | **R² = 0,996** sobre 3 velocidades × 5 repeticiones |
 | Masa dispensada | 14,4 g / 27,0 g / 42,8 g en 10 s (30 / 60 / 90% PWM) |
 
+<br/>
+
+<div align="center">
+
+| 1. Montaje del dosificador de fertilizante | 2. Funcionamiento del dosificador de fertilizante |
+|:--:|:--:|
+| ![Montaje dosificador fertilizante](assets/montaje_fertilizante.gif) | ![Fertilizante](assets/func_fertilizante.gif) |
+
+</div>
+
+
 ### 📱 Aplicación móvil — Flutter / Dart
 
 App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas con funcionalidad completa de control, planificación y monitorización.
@@ -133,6 +144,37 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 | **Ajustes** | IP del ESP32 · puerto WebSocket · gestión de conexión |
 
 ---
+
+
+<br/>
+
+<div align="center">
+
+| 🕹️ Pantalla: Control | 🗺️ Pantalla: Rutas (Vista General) |
+|:--:|:--:|
+| ![App Control](assets/app_control.png) | ![App Rutas General](assets/app_rutas_general.png) |
+
+</div>
+
+#### 🔄 Detalle del flujo en la sección de Rutas:
+<div align="center">
+
+| 1. Creación/Lista de Rutas | 2. Editor de Trayectorias | 3. Historial de Ejecución |
+|:--:|:--:|:--:|
+| ![Rutas Lista](assets/app_rutas_lista.png) | ![Rutas Editor](assets/app_rutas_editor.png) | ![Rutas Historial](assets/app_rutas_historial.png) |
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| 📊 Pantalla: Monitor | ⚙️ Pantalla: Ajustes |
+|:--:|:--:|
+| ![App Monitor](assets/app_monitor.png) | ![App Ajustes](assets/app_ajustes.png) |
+
+</div>
+
 
 ## 🔌 Electrónica
 
