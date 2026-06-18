@@ -2,15 +2,6 @@
 
 <br/>
 
-```
- █████╗  ██████╗ ██████╗ ██╗██████╗  ██████╗  ██████╗ ████████╗
-██╔══██╗██╔════╝ ██╔══██╗██║██╔══██╗██╔═══██╗██╔════╝ ╚══██╔══╝
-███████║██║  ███╗██████╔╝██║██████╔╝██║   ██║██║  ███╗   ██║   
-██╔══██║██║   ██║██╔══██╗██║██╔══██╗██║   ██║██║   ██║   ██║   
-██║  ██║╚██████╔╝██║  ██║██║██████╔╝╚██████╔╝╚██████╔╝   ██║   
-╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚═════╝  ╚═════╝  ╚═════╝   ╚═╝   
-```
-
 ### _Robot agrícola de bajo coste para siembra y fertilización simultánea en cultivos en hileras_
 
 <br/>
@@ -18,7 +9,6 @@
 [![ESP32](https://img.shields.io/badge/MCU-ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/)
 [![Flutter](https://img.shields.io/badge/App-Flutter%2FDart-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
 [![FDM](https://img.shields.io/badge/Fabricación-Impresión_3D_FDM-F5A623?style=for-the-badge)]()
-[![Nota](https://img.shields.io/badge/Nota-9.5%2F10-2E7D32?style=for-the-badge)]()
 [![TFG](https://img.shields.io/badge/TFG-Ingeniería_Robótica-0077B6?style=for-the-badge)]()
 
 <br/>
