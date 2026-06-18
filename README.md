@@ -154,16 +154,13 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 | **Monitor** | Latencia WebSocket · distancia recorrida · semillas depositadas · ticks por encoder |
 | **Ajustes** | IP del ESP32 · puerto WebSocket · gestión de conexión |
 
----
-
-
 <br/>
 
 <div align="center">
 
 | 🕹️ Pantalla: Control | 🗺️ Pantalla: Rutas (Vista General) |
 |:--:|:--:|
-| ![App Control](assets/control.png) | ![App Rutas General](assets/rutas1.png) |
+| <img src="assets/control.png" width="180px" alt="App Control"> | <img src="assets/rutas1.png" width="180px" alt="App Rutas General"> |
 
 </div>
 
@@ -172,7 +169,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 1. Creación/Lista de Rutas | 2. Editor de Trayectorias | 3. Historial de Ejecución |
 |:--:|:--:|:--:|
-| ![Rutas Lista](assets/rutas2.png) | ![Rutas Editor](assets/rutas3.png) | ![Rutas Historial](assets/rutas4.png) |
+| <img src="assets/rutas2.png" width="180px" alt="Rutas Lista"> | <img src="assets/rutas3.png" width="180px" alt="Rutas Editor"> | <img src="assets/rutas4.png" width="180px" alt="Rutas Historial"> |
 
 </div>
 
@@ -182,7 +179,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 📊 Pantalla: Monitor | ⚙️ Pantalla: Ajustes |
 |:--:|:--:|
-| ![App Monitor](assets/monitor.png) | ![App Ajustes](assets/ajustes.png) |
+| <img src="assets/monitor.png" width="180px" alt="App Monitor"> | <img src="assets/ajustes.png" width="180px" alt="App Ajustes"> |
 
 </div>
 
