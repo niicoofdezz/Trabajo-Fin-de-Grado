@@ -46,7 +46,8 @@ Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo
 
 ## 🏗️ Arquitectura del sistema
 
-```mermaid
+```
+mermaid
 graph TD
     %% Estilos de los bloques
     classDef movil fill:#02569B,stroke:#013A6B,stroke-width:2px,color:#fff;
@@ -81,8 +82,6 @@ graph TD
     D2 --> M2[Motor Paso a Paso NEMA 17<br>Dosificador Semillas Plato Horiz.]
     D3 --> M3[Motor DC JGB37-555<br>Dosificador Fertilizante Tornillo Sinfín]
     class M1,M2,M3 motores;
-
----
 
 ## ⚙️ Subsistemas
 
