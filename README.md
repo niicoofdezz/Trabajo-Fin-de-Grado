@@ -46,28 +46,41 @@ Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo
 
 ## 🏗️ Arquitectura del sistema
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    APLICACIÓN MÓVIL                     │
-│           Flutter / Dart · Android · WebSocket          │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐  │
-│  │ Control  │ │  Rutas   │ │ Monitor  │ │  Ajustes   │  │
-│  └──────────┘ └──────────┘ └──────────┘ └────────────┘  │
-└───────────────────────┬─────────────────────────────────┘
-                        │ WiFi · WebSocket 
-┌───────────────────────▼─────────────────────────────────┐
-│                     ESP32                               │
-│                                                         │
-│  PWM · Encoders · WebSocket server · JSON parsing       │
-└──┬────────────────────────┬─────────────────────┬───────┘
-   │                        │                     │
-   ▼                        ▼                     ▼
-2× BTS7960                A4988                 L298N
-4 motores                NEMA 17             JGB37-555
-JGB37-555-CE        dosif. semillas     dosif. fertilizante
-(encoders)           (plato horiz)       (tornillo sinfín)
-              
-```
+```mermaid
+graph TD
+    %% Estilos de los bloques
+    classDef movil fill:#02569B,stroke:#013A6B,stroke-width:2px,color:#fff;
+    classDef pestañas fill:#E1F5FE,stroke:#0288D1,stroke-width:1px,color:#000;
+    classDef mcu fill:#E7352C,stroke:#B71C1C,stroke-width:2px,color:#fff;
+    classDef drivers fill:#FFF3E0,stroke:#FFB74D,stroke-width:2px,color:#000;
+    classDef motores fill:#ECEFF1,stroke:#607D8B,stroke-width:1px,color:#000;
+
+    %% Subgraph Aplicación Móvil
+    subgraph APP [APLICACIÓN MÓVIL]
+        direction TB
+        A1[Flutter / Dart · Android · WebSocket] --> A2
+        subgraph Pestañas [Pestañas de la App]
+            A2[🕹️ Control] --- A3[🗺️ Rutas] --- A4[📊 Monitor] --- A5[⚙️ Ajustes]
+        end
+    end
+    class APP movil;
+    class A2,A3,A4,A5 pestañas;
+
+    %% Conexión principal
+    APP -->|WiFi · WebSocket Puerto 81| ESP32[ESP32-DevKitC<br>Firmware Arduino IDE · Dual-core 240 MHz<br>PWM · Encoders · WebSocket Server · JSON Parsing]
+    class ESP32 mcu;
+
+    %% Conexiones de Hardware
+    ESP32 -->|PWM| D1[2× BTS7960<br>Driver Tracción]
+    ESP32 -->|STEP / DIR| D2[A4988<br>Driver NEMA 17]
+    ESP32 -->|PWM| D3[L298N<br>Driver Fertilizante]
+    class D1,D2,D3 drivers;
+
+    %% Actuadores
+    D1 --> M1[4× Motores JGB37-555-CE<br>Tracción 4WD con Encoders]
+    D2 --> M2[Motor Paso a Paso NEMA 17<br>Dosificador Semillas Plato Horiz.]
+    D3 --> M3[Motor DC JGB37-555<br>Dosificador Fertilizante Tornillo Sinfín]
+    class M1,M2,M3 motores;
 
 ---
 
