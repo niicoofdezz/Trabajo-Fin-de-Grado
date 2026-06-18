@@ -86,15 +86,6 @@ Configuración de cuatro ruedas motrices con **dirección diferencial**: dos par
 | Driver | 2× BTS7960 · 43 A continuos |
 | Chasis | PLA High Speed · FDM · patas de aluminio anodizado rectangular |
 
-<br/>
-<div align="center">
-
-| Proceso de montaje del UGV básico (Chasis y tracción) |
-|:--:|:--:|
-| ![Montaje UGV básico](assets/sist_tracción.gif) |
-
-</div>
-
 
 ### 🌾 Dosificador de semillas — plato alveolar horizontal
 
@@ -107,6 +98,17 @@ Mecanismo de siembra de precisión: una placa giratoria con **4 alvéolos** capt
 | Pasos por semilla | **50 pasos** (200 pasos/vuelta ÷ 4 alvéolos) |
 | Cultivo de referencia | Judía enana variedad Strike · semillas 8–12 mm |
 | Sincronización | Por odometría de encoders de tracción |
+
+<br/>
+
+<div align="center">
+
+| 1. Montaje del dosificador de semillas | 2. Funcionamiento del dosificador de semillas |
+|:--:|:--:|
+| ![Montaje dosificador semillas](assets/montaje_semillas.gif) | ![Semillas](assets/func_semillas.gif) |
+
+</div>
+
 
 ### 🧪 Dosificador de fertilizante — tornillo sin fin
 
