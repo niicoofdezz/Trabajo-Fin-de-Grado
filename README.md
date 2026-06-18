@@ -81,7 +81,7 @@ graph TD
     D2 --> M2[Motor Paso a Paso NEMA 17<br>Dosificador Semillas Plato Horiz.]
     D3 --> M3[Motor DC JGB37-555<br>Dosificador Fertilizante Tornillo Sinfín]
     class M1,M2,M3 motores;
-
+```
 ## ⚙️ Subsistemas
 
 ### 🚗 Plataforma móvil — 4WD tracción integral
