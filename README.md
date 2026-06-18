@@ -2,7 +2,7 @@
 
 <br/>
 
-### _Robot agrícola de bajo coste para siembra y fertilización simultánea en cultivos en hileras_
+# _Robot agrícola de bajo coste para siembra y fertilización simultánea en cultivos en hileras_
 
 <br/>
 
@@ -167,7 +167,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 #### 🔄 Detalle del flujo en la sección de Rutas:
 <div align="center">
 
-| 1. Creación/Lista de Rutas | 2. Editor de Trayectorias | 3. Historial de Ejecución |
+| 1. Creación de la Ruta | 2. Editor de Trayectorias | 3. Ruta Planificada |
 |:--:|:--:|:--:|
 | <img src="assets/rutas2.png" width="230px" alt="Rutas Lista"> | <img src="assets/rutas3.png" width="230px" alt="Rutas Editor"> | <img src="assets/rutas4.png" width="230px" alt="Rutas Historial"> |
 
