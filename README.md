@@ -14,7 +14,7 @@
 <br/>
 
 > **Trabajo Fin de Grado** · Grado en Ingeniería Robótica · Universitat d'Alacant · Mayo 2026  
-> **Autor:** Nicolás Fernández Blánquez · **Tutor:** Juan Marcos Llorca Schenk
+> **Autor:** Nicolás Fernández Blánquez
 
 </div>
 
@@ -251,7 +251,6 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 **Tipo:** Trabajo Fin de Grado  
 **Titulación:** Grado en Ingeniería Robótica  
 **Centro:** Escuela Politécnica Superior · Universitat d'Alacant  
-**Tutor:** Juan Marcos Llorca Schenk  
 **Fecha de defensa:** Mayo 2026   
 
 ---
