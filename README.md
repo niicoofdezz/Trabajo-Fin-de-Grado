@@ -46,8 +46,7 @@ Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo
 
 ## 🏗️ Arquitectura del sistema
 
-```
-mermaid
+```mermaid
 graph TD
     %% Estilos de los bloques
     classDef movil fill:#02569B,stroke:#013A6B,stroke-width:2px,color:#fff;
