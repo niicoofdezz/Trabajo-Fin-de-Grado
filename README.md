@@ -160,7 +160,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 🕹️ Pantalla: Control | 🗺️ Pantalla: Rutas (Vista General) |
 |:--:|:--:|
-| <img src="assets/control.png" width="180px" alt="App Control"> | <img src="assets/rutas1.png" width="180px" alt="App Rutas General"> |
+| <img src="assets/control.png" width="230px" alt="App Control"> | <img src="assets/rutas1.png" width="230px" alt="App Rutas General"> |
 
 </div>
 
@@ -169,7 +169,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 1. Creación/Lista de Rutas | 2. Editor de Trayectorias | 3. Historial de Ejecución |
 |:--:|:--:|:--:|
-| <img src="assets/rutas2.png" width="180px" alt="Rutas Lista"> | <img src="assets/rutas3.png" width="180px" alt="Rutas Editor"> | <img src="assets/rutas4.png" width="180px" alt="Rutas Historial"> |
+| <img src="assets/rutas2.png" width="230px" alt="Rutas Lista"> | <img src="assets/rutas3.png" width="230px" alt="Rutas Editor"> | <img src="assets/rutas4.png" width="230px" alt="Rutas Historial"> |
 
 </div>
 
@@ -179,10 +179,9 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 📊 Pantalla: Monitor | ⚙️ Pantalla: Ajustes |
 |:--:|:--:|
-| <img src="assets/monitor.png" width="180px" alt="App Monitor"> | <img src="assets/ajustes.png" width="180px" alt="App Ajustes"> |
+| <img src="assets/monitor.png" width="230px" alt="App Monitor"> | <img src="assets/ajustes.png" width="230px" alt="App Ajustes"> |
 
 </div>
-
 
 ## 🔌 Electrónica
 
