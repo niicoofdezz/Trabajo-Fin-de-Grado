@@ -152,7 +152,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 🕹️ Pantalla: Control | 🗺️ Pantalla: Rutas (Vista General) |
 |:--:|:--:|
-| ![App Control](assets/app_control.png) | ![App Rutas General](assets/app_rutas_general.png) |
+| ![App Control](assets/control.png) | ![App Rutas General](assets/rutas1.png) |
 
 </div>
 
@@ -161,7 +161,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 1. Creación/Lista de Rutas | 2. Editor de Trayectorias | 3. Historial de Ejecución |
 |:--:|:--:|:--:|
-| ![Rutas Lista](assets/app_rutas_lista.png) | ![Rutas Editor](assets/app_rutas_editor.png) | ![Rutas Historial](assets/app_rutas_historial.png) |
+| ![Rutas Lista](assets/rutas2.png) | ![Rutas Editor](assets/rutas3.png) | ![Rutas Historial](assets/rutas4.png) |
 
 </div>
 
@@ -171,7 +171,7 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 
 | 📊 Pantalla: Monitor | ⚙️ Pantalla: Ajustes |
 |:--:|:--:|
-| ![App Monitor](assets/app_monitor.png) | ![App Ajustes](assets/app_ajustes.png) |
+| ![App Monitor](assets/monitor.png) | ![App Ajustes](assets/ajustes.png) |
 
 </div>
 
@@ -218,28 +218,6 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 | Fabricación por impresión 3D (filamento + tiempo) | 46,14 € |
 | **Total** | **313,78 €** |
 
-> El prototipo más económico del mercado equivalente (FarmBot Genesis) cuesta ~4 000 €.
-
----
-
-## 🗂️ Estructura del repositorio
-
-```
-📦 agribot-tfg
- ┣ 📂 assets/               ← GIFs y recursos visuales del README
- ┣ 📂 cad/                  ← Modelos CAD (Autodesk Inventor .ipt / .iam)
- ┣ 📂 firmware/             ← Código ESP32 (Arduino IDE)
- ┃  ┣ 📄 agribot.ino
- ┃  ┗ 📄 README_firmware.md
- ┣ 📂 app/                  ← Código fuente Flutter / Dart
- ┃  ┗ 📂 lib/
- ┣ 📂 fritzing/             ← Esquemas de conexiones (.fzz)
- ┣ 📂 docs/                 ← Memoria del TFG y planos
- ┗ 📄 README.md
-```
-
----
-
 ## 🛠️ Stack tecnológico
 
 - **Microcontrolador:** ESP32 · Arduino IDE 2.3.7 · `WiFi.h` · `WebSocketsServer.h` · `ArduinoJson.h`
@@ -249,21 +227,6 @@ App Android nativa con comunicación WebSocket en tiempo real. Cuatro pestañas 
 - **Esquemas electrónicos:** Fritzing 1.0.4
 - **Fabricación:** Impresión 3D FDM · PLA High Speed + TPU · Creality CR-10 Smart
 
----
-
-## 📍 Posicionamiento frente al estado del arte
-
-| Solución | Modo | Dosificación | Navegación | Coste aprox. |
-|----------|------|-------------|-----------|--------------|
-| Naïo Oz | Intra/inter-row | 35+ herramientas intercambiables | GPS-RTK | ~50 000 € |
-| FarmDroid FD20 | Intra-row | Discos alveolados sincronizados | GPS-RTK doble antena | ~30 000 € |
-| FarmBot Genesis | Fijo (bancal) | Inyector puntual XYZ | Software propio | ~4 000 € |
-| MARS (investigación) | Intra-row | Sembradora de precisión | GPS + nube | — |
-| **Este prototipo (TFG)** | **Intra-row** | **Plato alveolado + tornillo sinfín simultáneos** | **Odometría por encoder** | **~314 €** |
-
-La **combinación de siembra y fertilización simultánea en modo intra-row sobre una plataforma compacta de bajo coste** es la aportación diferencial del prototipo: ninguno de los sistemas de pequeña escala revisados incorpora esta doble función.
-
----
 
 ## 🔭 Líneas futuras
 
@@ -282,8 +245,7 @@ La **combinación de siembra y fertilización simultánea en modo intra-row sobr
 **Titulación:** Grado en Ingeniería Robótica  
 **Centro:** Escuela Politécnica Superior · Universitat d'Alacant  
 **Tutor:** Juan Marcos Llorca Schenk  
-**Fecha de defensa:** Mayo 2026  
-**Calificación:** 9,5 / 10  
+**Fecha de defensa:** Mayo 2026   
 
 ---
 
@@ -292,9 +254,5 @@ La **combinación de siembra y fertilización simultánea en modo intra-row sobr
 _«No sé cómo le pareceré al mundo, pero a mí me parece que he sido como un niño jugando en la orilla del mar, entretenido en encontrar de vez en cuando un guijarro más liso o una concha más bonita, mientras el gran océano de la verdad yacía inexplorado ante mí.»_
 
 — Isaac Newton
-
-<br/>
-
-**Mamá, lo hemos conseguido.**
 
 </div>
