@@ -38,24 +38,9 @@ Todo el chasis y los mecanismos de dosificación se fabricaron íntegramente med
 
 ## 🎬 Demo
 
-> Sustituye las rutas de imagen por tus GIFs una vez los subas al repositorio.  
-> Convenio de nombres sugerido: `assets/demo_traccion.gif`, `assets/demo_semillas.gif`, etc.
+Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo con todo el funcionamiento detallado en YouTube:
 
-<div align="center">
-
-| Funcionamiento integrado en tierra | App móvil Flutter |
-|:--:|:--:|
-| ![Demo integrado](assets/demo_integrado.gif) | ![App demo](assets/demo_app.gif) |
-
-| Dosificador de semillas | Dosificador de fertilizante |
-|:--:|:--:|
-| ![Semillas](assets/demo_semillas.gif) | ![Fertilizante](assets/demo_fertilizante.gif) |
-
-| Sistema de tracción 4WD |
-|:--:|
-| ![Tracción](assets/demo_traccion.gif) |
-
-</div>
+[![Ver vídeo demostrativo](https://img.shields.io/badge/YouTube-Video_Funcionamiento-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/NOKZ0o41DQo)
 
 ---
 
@@ -63,25 +48,25 @@ Todo el chasis y los mecanismos de dosificación se fabricaron íntegramente med
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    APLICACIÓN MÓVIL                      │
-│           Flutter / Dart · Android · WebSocket           │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐ │
-│  │ Control  │ │  Rutas   │ │ Monitor  │ │  Ajustes   │ │
-│  └──────────┘ └──────────┘ └──────────┘ └────────────┘ │
+│                    APLICACIÓN MÓVIL                     │
+│           Flutter / Dart · Android · WebSocket          │
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐  │
+│  │ Control  │ │  Rutas   │ │ Monitor  │ │  Ajustes   │  │
+│  └──────────┘ └──────────┘ └──────────┘ └────────────┘  │
 └───────────────────────┬─────────────────────────────────┘
-                        │ WiFi · WebSocket puerto 81
+                        │ WiFi · WebSocket 
 ┌───────────────────────▼─────────────────────────────────┐
-│                   ESP32-DevKitC                          │
-│         Firmware Arduino IDE · Dual-core 240 MHz         │
-│  PWM · Encoders · WebSocket server · JSON parsing        │
-└──┬──────────┬─────────────┬──────────────────────────────┘
-   │          │             │
-   ▼          ▼             ▼
-2× BTS7960  A4988         L298N
-4 motores   NEMA 17       JGB37-555
-tracción    dosif.        dosif.
-JGB37-555-CE semillas     fertilizante
-(encoders)  (plato horiz) (tornillo sinfín)
+│                     ESP32                               │
+│                                                         │
+│  PWM · Encoders · WebSocket server · JSON parsing       │
+└──┬────────────────────────┬─────────────────────┬───────┘
+   │                        │                     │
+   ▼                        ▼                     ▼
+2× BTS7960                A4988                 L298N
+4 motores                NEMA 17             JGB37-555
+JGB37-555-CE        dosif. semillas     dosif. fertilizante
+(encoders)           (plato horiz)       (tornillo sinfín)
+              
 ```
 
 ---
@@ -100,6 +85,16 @@ Configuración de cuatro ruedas motrices con **dirección diferencial**: dos par
 | Ruedas | TPU flexible · perfil V-tread · diámetro 100 mm |
 | Driver | 2× BTS7960 · 43 A continuos |
 | Chasis | PLA High Speed · FDM · patas de aluminio anodizado rectangular |
+
+<br/>
+<div align="center">
+
+| Proceso de montaje del UGV básico (Chasis y tracción) |
+|:--:|:--:|
+| ![Montaje UGV básico](assets/montaje_ugv_basico.gif) | ![Tracción](assets/demo_traccion.gif) |
+
+</div>
+
 
 ### 🌾 Dosificador de semillas — plato alveolar horizontal
 
