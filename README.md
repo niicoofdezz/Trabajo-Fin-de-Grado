@@ -36,6 +36,8 @@ Todo el chasis y los mecanismos de dosificación se fabricaron íntegramente med
 
 ---
 
+<div align="center">
+
 ## 🎬 Demo
 
 Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo con todo el funcionamiento detallado en YouTube:
@@ -53,6 +55,7 @@ Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo
 
 [![Ver vídeo demostrativo](https://img.shields.io/badge/YouTube-Video_Funcionamiento-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/NOKZ0o41DQo)
 
+</div>
 ---
 
 ## 🏗️ Arquitectura del sistema
