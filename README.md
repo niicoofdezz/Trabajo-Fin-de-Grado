@@ -40,6 +40,17 @@ Todo el chasis y los mecanismos de dosificación se fabricaron íntegramente med
 
 Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo con todo el funcionamiento detallado en YouTube:
 
+<table>
+  <tr>
+    <td>
+      <img src="assets/prototipo_simulacion.png" alt="Diseño del prototipo ensamblado" width="450"/>
+    </td>
+    <td>
+      <img src="assets/prototipo_real.png" alt="Prototipo ensamblado en impresión 3D" width="450"/>
+    </td>
+  </tr>
+</table>
+
 [![Ver vídeo demostrativo](https://img.shields.io/badge/YouTube-Video_Funcionamiento-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/NOKZ0o41DQo)
 
 ---
