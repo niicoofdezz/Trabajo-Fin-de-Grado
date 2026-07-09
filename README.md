@@ -36,9 +36,9 @@ Todo el chasis y los mecanismos de dosificación se fabricaron íntegramente med
 
 ---
 
-<div align="center">
-
 ## 🎬 Demo
+
+<div align="center">
 
 Para una visión completa del proyecto, puedes reproducir el vídeo demostrativo con todo el funcionamiento detallado en YouTube:
 
